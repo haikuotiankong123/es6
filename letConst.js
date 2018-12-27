@@ -33,6 +33,12 @@
     let i = "abc";
     console.log(i)    // “abc”
   }
+  
+  // 但是在函数传参，参数名（相当于变量名）
+  function a(n){
+      let n = 1;
+  }
+  a(22)   // 报错变量重复声明
 }
 
 // 4、const与let特性一样，不一样的地方是：const 不能改变值 而且 定义后一定要赋值，一般在值不变情况下使用，如 引入模块jQ,webapck插件...
@@ -46,5 +52,7 @@
         a =5;
         console.log(a)      // 报错
 }
+
+//
 
 
