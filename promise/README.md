@@ -2,7 +2,7 @@
 
 > 有了<font color=#0099ff>Promise</font>对象方便操作异步操作
 > promise对象有一个函数参数，函数参数有两个参数
-
+<font color=#00ffff size=72>color=#00ffff</font>
 ```javascript
 const promise = new Promise(function(resolve, reject){
   resolve('已完成')
