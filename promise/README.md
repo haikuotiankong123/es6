@@ -9,3 +9,17 @@ promise.then(res=>{
   console.log(res)
 })
 ```
+
+```HTML 
+<ul>
+  <li>1</li>
+  <li>2</li>
+  <li>2</li>
+</ul>
+```
+
+```CSS
+body{
+  color:red;
+}
+```
